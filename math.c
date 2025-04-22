@@ -6,5 +6,6 @@ int soma(int a, int b) {
 
 int main() {
     soma(1, 2);
-    return soma;
+    printf(soma);
+    return 0;
 }
