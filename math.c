@@ -11,7 +11,7 @@ int sub(int a, int b) {
 int main() {
     soma(1, 2);
     sub(5, 1);
-    double op = soma + sub;
+    int op = soma + sub;
     printf("O resultado é: %d\n", op);
     return 0;
 }
