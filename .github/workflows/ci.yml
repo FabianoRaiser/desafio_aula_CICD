@@ -14,8 +14,14 @@ jobs:
       - name: Instalar compilador GCC
         run: sudo apt update && sudo apt install build-essential -y
 
+      - name: Verifica conteudo de math.c
+        run: cat math.c
+
       - name: Compilar o programa
         run: gcc math.c -o math_compilado
+
+      - name: Verifica o arquivo compilado
+        run: cat math_compilado
 
       - name: Executar o programa
         run: ./math_compilado
