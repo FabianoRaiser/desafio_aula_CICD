@@ -11,6 +11,7 @@ int sub(int a, int b) {
 int main() {
     soma(1, 2);
     sub(5, 1);
-    printf(soma / sub);
+    double op = soma /= sub;
+    printf(op);
     return 0;
 }
