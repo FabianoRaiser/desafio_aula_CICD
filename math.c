@@ -12,6 +12,6 @@ int main() {
     soma(1, 2);
     sub(5, 1);
     double op = soma /= sub;
-    printf(op);
+    printf("O resultado é: %d ", op);
     return 0;
 }
